@@ -9,7 +9,7 @@ Currently there is only 1 hook/task
 
 
 ## Contributing
-If you find useful hooks, please submit pr with it. If this is update for already existing hook, please append task in related .json file if it isn't colliding with old ones.
+If you find useful/interesting hooks, please submit pr with it. If this is update for already existing hook, please append task in related .json file if it isn't colliding with old ones.
 
 
 ## Disclaimer / Warning
