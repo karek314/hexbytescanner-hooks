@@ -13,7 +13,7 @@ If you find useful hooks, please submit pr with it. If this is update for alread
 
 
 ## Disclaimer / Warning
-This repository/project is intended for Educational Purposes ONLY. It is not intended to be used for any purpose other than learning, so please do not use it for any other reason.
+This repository/project is intended for educational purposes ONLY. It is not intended to be used for any purpose other than learning, so please do not use it for any other reason.
 
 ## License
 MIT
