@@ -6,7 +6,7 @@ This repository contains multiple different json hooks/tasks for [hexbytescanner
 Currently there is only 1 hook/task
 
 <b>openssl_hook.json</b> - OpenSSL 1.0.2 certificate pinning hook on Aarch64.<br>
-<b>openssl_hook_v2.json</b> - OpenSSL 1.0.2 certificate pinning hook on Aarch64 improved pattern, possibly for different compiler version or slighlty updated OpenSSL, use if first version does not find patch location.<br>
+<b>openssl_hook_v2.json</b> - OpenSSL 1.0.2 certificate pinning hook on Aarch64, improved pattern, possibly for different compiler version or slighlty updated OpenSSL, use if first version does not find patch location.<br>
 Those hooks patch call to <b>ssl_verify_cert_chain</b> in <b>ssl3_get_server_certificate</b>. It's useful when symbols are stripped.
 
 
