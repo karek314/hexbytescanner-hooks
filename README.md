@@ -1,13 +1,14 @@
 # hexbytescanner-hooks
 Old school json hooks for [hexbytescanner](https://github.com/karek314/hexbytescanner)
 
-This repository contains multiple different json hooks/tasks for [hexbytescanner](https://github.com/karek314/hexbytescanner) running on MacOS.
+This repository contains multiple different json hooks/tasks for [hexbytescanner](https://github.com/karek314/hexbytescanner) running on MacOS. It's useful when symbols are stripped from binary, rendering method swizzling by symbols not possible.
 
 ## Hooks/Tasks
 
-<b>openssl_hook.json</b> - OpenSSL 1.0.2 certificate pinning hook on Aarch64.<br>
-<b>openssl_hook_v2.json</b> - OpenSSL 1.0.2 certificate pinning hook on Aarch64, improved pattern, possibly for different compiler version or slighlty updated OpenSSL, use if first version does not find patch location.<br>
-Those hooks patch call to <b>ssl_verify_cert_chain</b> in <b>ssl3_get_server_certificate</b>. It's useful when symbols are stripped.
+<b>openssl_hook.json</b> - OpenSSL 1.0.2 certificate pinning hook on arm64.<br>
+<b>openssl_hook_v2.json</b> - OpenSSL 1.0.2 certificate pinning hook on arm64, improved pattern, possibly for different compiler version or slighlty updated OpenSSL, use if first version does not find patch location.<br>
+These hooks patch call to <b>ssl_verify_cert_chain</b> in <b>ssl3_get_server_certificate</b>.
+<b>openssl_1_1_0_hook.json</b> OpenSSL 1.1.0 certifiate pinning hook for arm64, it modifies cmp instruction in <b>tls_process_server_certificate</b> method.
 
 
 ## Contributing
