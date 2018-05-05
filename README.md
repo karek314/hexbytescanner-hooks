@@ -7,7 +7,7 @@ This repository contains multiple different json hooks/tasks for [hexbytescanner
 
 <b>openssl_hook.json</b> - OpenSSL 1.0.2 certificate pinning hook on arm64.<br>
 <b>openssl_hook_v2.json</b> - OpenSSL 1.0.2 certificate pinning hook on arm64, improved pattern, possibly for different compiler version or slighlty updated OpenSSL, use if first version does not find patch location.<br>
-These hooks patch call to <b>ssl_verify_cert_chain</b> in <b>ssl3_get_server_certificate</b>.
+These hooks patch call to <b>ssl_verify_cert_chain</b> in <b>ssl3_get_server_certificate</b>.<br>
 <b>openssl_1_1_0_hook.json</b> OpenSSL 1.1.0 certifiate pinning hook for arm64, it modifies cmp instruction in <b>tls_process_server_certificate</b> method.
 
 
