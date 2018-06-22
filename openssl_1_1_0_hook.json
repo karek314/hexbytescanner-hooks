@@ -1,7 +1,7 @@
 [
   {
-    "pattern": "FCFF??E00313AAE10314AA????????F50300AABF",
+    "pattern": "FFB5E00313AAE103??AA??????????0300",
     "patchBytes": "02",
-    "patchDistance": "0x1"
+    "patchDistance": "0x3"
   }
 ]
